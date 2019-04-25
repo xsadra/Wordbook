@@ -1,8 +1,10 @@
-package at.sadra.apps.wordbook;
+package at.sadra.apps.wordbook.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import at.sadra.apps.wordbook.R;
 
 public class MainActivity extends AppCompatActivity {
 
