@@ -6,7 +6,7 @@ import lombok.Data;
 class Conjugate {
     private String ich;
     private String du;
-    private String sieErEs;
+    private String erSieEs;
     private String wir;
     private String ihr;
     private String sie;
