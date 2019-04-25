@@ -1,13 +1,20 @@
 package at.sadra.apps.wordbook.model;
 
+import androidx.annotation.Nullable;
+
 import java.time.LocalDate;
 import java.util.Objects;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
-class DateInfo {
+@AllArgsConstructor
+@NoArgsConstructor
+public class DateInfo {
     private LocalDate createDate;
+    @Nullable
     private LocalDate modifyDate;
 
     @Override

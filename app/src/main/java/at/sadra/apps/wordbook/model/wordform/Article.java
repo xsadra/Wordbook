@@ -1,6 +1,6 @@
 package at.sadra.apps.wordbook.model.wordform;
 
-enum Article {
+public enum Article {
     DER,
     DIE,
     DAS

@@ -1,6 +1,6 @@
 package at.sadra.apps.wordbook.model;
 
-enum LanguageType {
+public enum LanguageType {
     ENGLISH,
     GERMAN,
     PERSIAN

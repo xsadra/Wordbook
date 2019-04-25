@@ -1,9 +1,13 @@
 package at.sadra.apps.wordbook.model.wordform;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
-class Conjugate {
+@NoArgsConstructor
+@AllArgsConstructor
+public class Conjugate {
     private String ich;
     private String du;
     private String erSieEs;
