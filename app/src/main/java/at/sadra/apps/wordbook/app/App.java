@@ -19,6 +19,7 @@ public class App {
     public static class Values {
         public static final String TAG = "WORD";
         public static final String DATABASE_NAME = "word_DataBase";
+        public static final int DATABASE_VERSION = 1;
     }
 
     public static class Message {
