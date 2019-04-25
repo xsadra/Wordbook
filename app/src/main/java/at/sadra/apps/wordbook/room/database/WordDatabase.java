@@ -1,4 +1,4 @@
-package at.sadra.apps.wordbook.room.dao;
+package at.sadra.apps.wordbook.room.database;
 
 import android.content.Context;
 
@@ -6,6 +6,7 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
 import at.sadra.apps.wordbook.app.App;
+import at.sadra.apps.wordbook.room.dao.WordDao;
 
 public abstract class WordDatabase extends RoomDatabase {
     private static WordDatabase instance;
