@@ -9,6 +9,7 @@ import androidx.room.Update;
 
 import java.util.List;
 
+import at.sadra.apps.wordbook.app.App;
 import at.sadra.apps.wordbook.model.Word;
 
 @Dao
@@ -23,9 +24,9 @@ public interface WordDao {
     @Delete
     void delete(Word word);
 
-    @Query("DELETE FROM word_table")
+    @Query(App.Query.DELETE_ALL)
     void deleteAllWords(Word word);
 
-    @Query("SELECT * FROM word_table ORDER BY dateInfo DESC")
+    @Query(App.Query.SELECT_ALL_FROM_WORD_ORDER_BY_DATEINFO)
     LiveData<List<Word>> getAllWords(Word word);
 }
