@@ -25,8 +25,8 @@ public interface WordDao {
     void delete(Word word);
 
     @Query(App.Query.DELETE_ALL)
-    void deleteAllWords(Word word);
+    void deleteAllWords();
 
     @Query(App.Query.SELECT_ALL_FROM_WORD_ORDER_BY_DATEINFO)
-    LiveData<List<Word>> getAllWords(Word word);
+    LiveData<List<Word>> getAllWords();
 }
